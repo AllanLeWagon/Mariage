@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#BC8887" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Mariage Estelle & Allan</title>
+
+    <meta property="og:title" content="Mariage Estelle & Allan - 05 Octobre 2024">
+    <meta property="og:description" content="Mariage Estelle & Allan - 05 Octobre 2024">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/favicon.png" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
+    <!-- Begin Script for Countdown -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23064379-20');
+    </script>
+    <!-- Begin Script for Countdown -->
+
+    <!-- Github Button -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <div id="begin"></div>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/favicon.png" alt="Flower" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand is-fixed-top">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#info">
+                  Acceuil
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#localisation">
+                  Informations
+                </a>
+              </div>
+
+              <div class="navbar-item">
+                <a class="navbar-item" href="#her&me">
+                  Estelle & Allan
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#logement">
+                  Logements
+                </a>
+              </div>
+              <!-- <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">
+                  RSVP
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h2 class="title">Estelle & Allan</h2>
+            <h4 class="subtitle tempatinfo">
+
+                05 Octobre 2024
+
+            </h4>
+          </div>
+          <!-- Start Countdown -->
+          <div>
+            <ul id="hitungmundur" >
+              <li><span class="days">00</span><p class="days_text">Jours</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Secondes</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth();
+              var year = now.getFullYear();
+
+              var harih = '10/05/2024 00:00:00';
+
+              $('#hitungmundur').countdown({
+                date: harih, // TODO Date format: 07/27/2017 17:00:00
+                offset: +2, // TODO Your Timezone Offset
+                day: 'Jour',
+                days: 'Jours'
+              });
+            </script>
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Acceuil</a>
+                  </li>
+                  <li>
+                    <a href="#info">Informations</a>
+                  </li>
+                  <li>
+                    <a href="#localisation">Localisation</a>
+                  </li>
+                  <li>
+                    <a href="#her&me">Estelle & Allan</a>
+                  </li>
+                  <li>
+                    <a href="#logement">Logements</a>
+                  </li>
+                  <!-- <li>
+                    <a href="#rsvp">RSVP</a>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+    <!-- Begin regular-section-->
+     <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+        <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+          <h1 class="title has-text-centered section-title">Save the Date !</h1>
+        </div>
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <img src="image/flowers-and-leaves.png" class="divider has-text-centered" alt="~~~">
+        </div>
+
+        <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+          Nous sommes heureux de vous convier à notre mariage au Domaine de Blacons,
+          <br /> <br>
+          Nous vous attendons avec impatience le 05 Octobre 2024 à partir de 14h.
+        </p>
+
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+
+        <div data-aos="fade-up" data-aos-easing="linear">
+          <div class="nama-lengkap" >
+            Estelle Pizzetta
+          </div>
+          <div class="ampersand">&</div>
+          <div class="nama-lengkap">
+          Allan Elsensohn
+          </div>
+
+        </div>
+        <span class="space40px"></span>
+        <div data-aos="fade-up" data-aos-easing="linear">
+        </div>
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+      </section>
+      <!-- End regular-section-->
+
+      <!-- Begin info Section -->
+      <section class="section-dark" id="info">
+        <div class="container">
+
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Informations</h1>
+          </div>
+          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+            <div class="column is-12 has-vertically-aligned-content">
+
+              <p class="info is-larger has-text-centered">
+                <div class="info info-jam has-text-centered">Malgré tout l'amour que nous leur portons, nous ne sommes pas en mesure d'accueillir d'autres enfants que nos filleuls et enfants d'honneurs. </div>
+                <br>
+                <div class="info info-jam has-text-centered">Nous vous remercions de votre compréhension.</div>
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="space40px"></div>
+        <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+
+        </div>
+      </section>
+      <!-- End info Content -->
+
+      <!-- Begin localisation Section -->
+      <section class="section-darker" id="localisation" >
+        <div class="container">
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Localisation</h1>
+            <p class="tempat is-larger has-text-centered">
+              <strong>Domaine de Blacons</strong>
+              <br>
+              1275 Av. Des 3 Becs, 26400 Mirabel-et-Blacons
+              <br>
+            </p>
+          </div>
+          <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2835.4577692777207!2d5.088222276229531!3d44.71026818342535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12caa7b00f310c8b%3A0x83659db1ad87a2c2!2sDomaine%20de%20Blacons!5e0!3m2!1sfr!2sfr!4v1696174980512!5m2!1sfr!2sfr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="space40px"></div>
+          <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+            <a href="https://maps.app.goo.gl/EeiaJibYUDKFyXw86" class="button btn-cta" target="_blank" data-aos="zoom-in">
+              <i class="far fa-directions"></i>
+              &nbsp;&nbsp;Google Maps
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End localisation Content -->
+
+      <!-- Begin her&me -->
+      <section class="section-light regular-section is-fullheight" id="her&me">
+        <div class="container">
+          <div class="columns is-multiline">
+          <div class="column has-text-centered is-12 prolog">
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Estelle & Allan</h1>
+
+
+
+          <!-- IMAGES -->
+        <div class=" tile">
+          <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child foto1 notification foto1" data-aos="fade-up" data-aos-easing="linear">
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification foto2" data-aos="fade-up" data-aos-easing="linear">
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification foto3" data-aos="fade-up" data-aos-easing="linear">
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="space24px"></div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child notification foto4" data-aos="fade-up" data-aos-easing="linear">
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification foto5" data-aos="fade-up" data-aos-easing="linear">
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification foto6" data-aos="fade-up" data-aos-easing="linear">
+          </article>
+        </div>
+        <div class="space40px"></div>
+        <div class="space40px"></div>
+        <div class="space40px"></div>
+      </section>
+      <!-- End her&me -->
+
+      <!-- Begin Logement Content -->
+      <section class="section-dark contact" id="logement">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">LOGEMENTS</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <p class="h2 subtitle">
+                Voici quelques liens pour vous aider à trouver un logement autour de notre domaine :
+                <br>
+                <br>
+                <a href="https://www.chambres-hotes.fr/chambres-hotes_mirabel-et-blacons_10710.html">Chambre d'Hôtes</a>
+                <br>
+                <br>
+                <a href="https://www.gites-de-france.com/fr/search?destination=Mirabel-et-Blacons&towns=45482&travelers=2&seed=61cec160">Gîte de france</a>
+                <br>
+                <br>
+                <a href="https://www.booking.com/searchresults.fr.html?ss=Mirabel-et-Blacons,+Rh%C3%B4ne-Alpes,+France&ssne=Liergues&ssne_untouched=Liergues&efdco=1&label=gen173nr-1FCAEoggI46AdIDVgEaE2IAQGYAQ24AQfIAQ3YAQHoAQH4AQOIAgGoAgO4At-M96gGwAIB0gIkZDYwNTc2ZTktZWFiMC00ODE4LWI3NDEtOTFhNTg5MTU5MDcz2AIF4AIB&sid=21af022b81e79af7f296542debd67243&aid=304142&lang=fr&sb=1&src_elem=sb&src=index&dest_id=-1451656&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=fr&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=a8c58dafdf5305ba&ac_meta=GhBhOGM1OGRhZmRmNTMwNWJhIAAoATICZnI6Cm1pcmFiZWwgZXRAAEoAUAA=&checkin=2024-10-05&checkout=2024-10-06&group_adults=2&no_rooms=1&group_children=0&sb_travel_purpose=leisure">Booking</a>
+                <br>
+                <br>
+                <a href="https://www.airbnb.fr/s/Mirabel~et~Blacons/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2023-11-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=5&channel=EXPLORE&query=Mirabel-et-Blacons%2C%20France&place_id=ChIJI8hO-2qmyhIRYMC_5CqrCAQ&date_picker_type=calendar&checkin=2024-10-05&checkout=2024-10-06&source=structured_search_input_header&search_type=autocomplete_click">Airbnb</a>
+              </p>
+            </div>
+
+         </div>
+        </div>
+      </section>
+      <!-- End RSVP Content -->
+       <!-- <section class="section-dark contact" id="RSVP">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">CONFIRMATION DE PARTICIPATION</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <p class="h2 subtitle">
+                Ce serait un honneur de vous compter parmi nous lors de ce grand jour.
+                <br>
+                <br>
+                Nous attendons vos réponses !
+              </p>
+              <div class="space40px"></div>
+
+              <div class="space40px"></div>
+              <div class="space40px"></div>
+
+            </div>
+
+         </div>
+        </div>
+      </section> -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container">
+        <p class="has-vertically-align">2023 &copy AIIan</p>
+        <a class="arrow" href="#begin">↑</a>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
