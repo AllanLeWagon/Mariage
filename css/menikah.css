@@ -563,7 +563,7 @@ body.preloader-site {
 .foto1 {
   background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(100, 100, 100, 0.5)), url("../image/IMG_1.JPG");
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
@@ -572,7 +572,7 @@ body.preloader-site {
 .foto2 {
   background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(100, 100, 100, 0.5)), url("../image/IMG_2.JPG");
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
@@ -580,7 +580,7 @@ body.preloader-site {
 .foto3 {
   background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(100, 100, 100, 0.5)), url("../image/IMG_3.jpeg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
@@ -588,7 +588,7 @@ body.preloader-site {
 .foto4 {
   background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(100, 100, 100, 0.5)), url("../image/IMG_4.jpeg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
@@ -596,7 +596,7 @@ body.preloader-site {
 .foto5 {
   background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(100, 100, 100, 0.5)), url("../image/IMG_5.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat:no-repeat;
   min-height: 24rem;
 }
@@ -609,6 +609,13 @@ body.preloader-site {
   background-repeat:no-repeat;
   min-height: 24rem;
 }
+
+/* @media (max-width: 540px) {
+  .foto1, .foto2, .foto3, .foto4, .foto5, .foto6 {
+    background-size: contain;
+  }
+
+} */
 
 
 
