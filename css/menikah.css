@@ -45,6 +45,7 @@ html {
 @media (max-width: 620px) {
   .response {
       left: 5rem; 
+      padding: 35px !important;
   }
 }
 
