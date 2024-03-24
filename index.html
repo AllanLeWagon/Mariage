@@ -32,6 +32,15 @@
     </script>
     <!-- Begin Script for Countdown -->
 
+    <!-- Begin Close modal -->
+    <script>
+      $(document).ready(function() {
+        $(".cross").on("click", function() {
+          $(".response").fadeOut();
+        });
+      });
+    </script>
+
     <!-- Github Button -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
@@ -95,9 +104,10 @@
         <!-- Begin Hero Content-->
         <div class="hero-body">
           <div class="response">
+            <span class="cross">x</span>
             <h1>Serez-vous de la partie ?</h1>
             <div class="response-buttons">
-              <a href="mailto:estelleetallan@gmail.com?subject=Mariage Estelle et Allan&body=Serez-vous de la partie : Oui / Non / Précisions">&#9993; Réponse </a>
+              <a href="mailto:estelleetallan@gmail.com?subject=Mariage Estelle et Allan&body=Serez-vous de la partie : Oui / Non / Précisions"><span>&#9993 Réponse</span> </a>
             </div>
           </div>
           <div class="container has-text-centered">

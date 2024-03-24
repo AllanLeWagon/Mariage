@@ -37,6 +37,7 @@ html {
   background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/estelle.jpeg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: 'Raleway', sans-serif;
@@ -44,7 +45,17 @@ html {
 
 @media (max-width: 540px) {
   .hero {
-      background-size: contain;
+      background-size: cover;
+  }
+}
+
+@media (max-width: 620px) {
+  .response {
+      left: 5rem;
+      
+  }
+  .response a {
+      margin-left: 30%;
   }
 }
 
@@ -110,7 +121,7 @@ html {
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
 }
 
-@media (max-width: 599px) {
+@media (max-width: 660px) {
   .hero .hero-foot {
     display: none;
   }
