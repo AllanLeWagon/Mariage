@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -33,7 +34,7 @@ html {
 
 .hero {
   background-image: url("https://scontent-cdg4-1.xx.fbcdn.net/v/t1.6435-9/174420682_3655792881199005_7606113345484678496_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=98zuF0p4rWwAX_RSHhh&_nc_ht=scontent-cdg4-1.xx&oh=00_AfBZ8XS5q5XjNScl9lxWUZxyPP80UDG2_oDIQYt3GnHQtw&oe=6540F7E6");
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://scontent-cdg4-1.xx.fbcdn.net/v/t1.6435-9/174420682_3655792881199005_7606113345484678496_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=98zuF0p4rWwAX_RSHhh&_nc_ht=scontent-cdg4-1.xx&oh=00_AfBZ8XS5q5XjNScl9lxWUZxyPP80UDG2_oDIQYt3GnHQtw&oe=6540F7E6") no-repeat;
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/estelle.jpeg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -47,9 +48,44 @@ html {
   }
 }
 
+.response {
+  position: absolute;
+  right: 5rem;
+  top:5rem;
+  background-color: white;
+  color: #996E6D;
+  padding: 50px;
+  z-index: 10;
+}
+
+.response h1 {
+  font-size: 2.5rem;
+  font-family: 'Dancing Script', sans-serif;
+  font-weight: 700;
+  color: #996E6D;
+  margin-bottom: 25px;
+}
+
+.response a {
+  border: 2px solid #996E6D;
+  background: white;
+  color: #996E6D;
+  height: 50px;
+  width: 250px;
+  font-size: 1rem;
+  padding: 10px;
+  margin-left: 34%;
+}
+
+.cross {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  cursor: pointer;
+}
 
 .hero .title {
-  font-family: 'Rouge Script', sans-serif;
+  font-family: 'Dancing Script';
   font-weight: 700;
   font-size: 5rem;
   padding-bottom: 5px;
