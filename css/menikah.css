@@ -45,7 +45,7 @@ html {
 @media (max-width: 620px) {
   .response {
       left: 5rem; 
-      padding: 35px !important;
+      padding: 30px !important;
   }
 }
 
@@ -58,7 +58,7 @@ html {
 
 @media (max-width: 620px) {
   .response h1 {
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
   }
 }
 
