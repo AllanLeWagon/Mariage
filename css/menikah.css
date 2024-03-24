@@ -51,17 +51,15 @@ html {
 @media (max-width: 620px) {
   .response a {
     margin-left: 0px !important;
-    font-size: 0.5rem !important;
+    font-size: 1rem !important;
   }
 }
-
 
 @media (max-width: 620px) {
   .response h1 {
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
   }
 }
-
 
 .response {
   position: absolute;
@@ -90,6 +88,12 @@ html {
   font-size: 1rem;
   padding: 10px;
   margin-left: 120px;
+}
+
+.response a:hover {
+  background: #996E6D;
+  color: white;
+  transition: all .2s ease-in-out;
 }
 
 .response-buttons {
