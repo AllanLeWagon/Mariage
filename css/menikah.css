@@ -103,7 +103,7 @@ html {
 
 .cross {
   position: absolute;
-  right: 5px;
+  right: 6px;
   top: 0;
   cursor: pointer;
 }
@@ -114,6 +114,14 @@ html {
   font-size: 5rem;
   padding-bottom: 5px;
   color: rgb(253, 229, 229);
+}
+
+.titledeux {
+  font-family: 'Dancing Script';
+  font-weight: 700;
+  font-size: 4rem;
+  padding-bottom: 5px;
+  color: rgb(243, 178, 178);
 }
 
 .hero .subtitle {
